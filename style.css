@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    border: 1px solid rgb(45, 17, 169);
+    justify-content: space-between;
+    padding: 1%;
+    background: #d8b48f;
+}
+
+.hero1{
+    border: 1px solid rgb(71, 4, 16);
+    display: flex;
+    align-items: center;
+}
+
+.hero-descricao{
+    width: 50%;
+    border: 3px solid #bc3102;
+    background: #b9e8ba;
+}
+
+.hero-imagem{
+    width: 50%;
+    height: 500px;
+    border: 3px solid #023867;
+    background: #a191da;
+}
+
+.hero-cards{
+    display: flex;
+    border: 4px solid #05793b;
+}
+
+.card{
+    border: 1px solid #7bc905;
+    background: #efed8a;
+}
+
+footer{
+    border: 3px solid #4f036f;
+    text-align: center;
+}
